@@ -1,0 +1,11 @@
+Substitution ciphers:
+I did these semimanually. I had a function that would find and print out the most common letters, along with another function that would find and print out the most common three letter words. I used these to automatically replace the letters A, N, D, T, H, E.
+I would then look at the text and figure out the rest of the letters manually.
+
+Vigenere green:
+Each cipher was done automatically but I still inputted the text manually. The function would find the most common letter, calculate the shift between E and that letter, and shift all letter accordingly.
+
+Vigenere blue and black:
+These were done semimanually. For each one I implemented the strategy used in the Vigenere green ciphers. I separated the text into either 10 or 20 buckets, did a frequency analysis on each bucket, set the most common letter as E, and shifted all other lettes accordingly. For each bucket, I printed out the occurence of each letter, so that I could do manual corrections. The way that I would do manual corrections is that I would look at the letter frequencies within a bucket and analyze by relative heights and the shape of the curve where E was, and then i would correct the shift. For Vignere black, a strategy that I found helpful is that I would look for recurring three letter words in the ciphertext (meaning it's the same word and it's falling on the same indices mod 20) and that would help me find THE and make some adjustments according to that knowledge.
+
+   
